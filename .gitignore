@@ -1,0 +1,11 @@
+# Raw exploration captures stay local; selected images are in docs/images.
+screenshots/
+_delivery/
+
+# Local secrets and environment files.
+.env
+.env.*
+!.env.example
+secrets.yaml
+*.pem
+*.key
